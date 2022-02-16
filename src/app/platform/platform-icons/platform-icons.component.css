@@ -1,0 +1,12 @@
+.platform-icons{
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+    min-height: 100%;
+}
+
+.box1{
+    flex-basis: 20%;
+    text-align: center;   
+}

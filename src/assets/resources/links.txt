@@ -1,0 +1,6 @@
+https://stackblitz.com/edit/angular-animations-slide-on-scroll?file=src%2Fapp%2Fhello.component.ts
+https://animate.style/
+https://www.youtube.com/watch?v=2a2p2FhBgfA&ab_channel=CalerEdwards
+https://www.youtube.com/watch?v=ra5qNKNc95U&t=235s&ab_channel=ProgrammingwithMosh
+https://www.youtube.com/watch?v=yPKSpuso6K0&ab_channel=DemoswithAngular
+https://fluin.io/blog/hierarchical-route-animations

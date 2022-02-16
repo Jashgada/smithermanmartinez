@@ -1,0 +1,23 @@
+<!-- TODO: Maybe use flexbox instead?? Responsiveness is fucked with grid -->
+
+<h2 class="mt-2 p-2">Meet the team behind <span>#IsaacYulia</span></h2>
+<div class="row">
+    <div class="col-md-3" *ngFor="let member of members| async; index as i">
+        <div class="main-cont">
+            <img class="img-fluid main-img" [src]="member.address || member.addressHover" (mouseenter)="member.address = member.address.Hover" (mouseleave)="member.address = member.addressHoverOut" alt="" [ngClass]="{'lcherry':i%4===0, 'yellow':i%4===1, 'dcherry':i%4===2, 'cherry':i%4===3}">
+        </div>
+                <p class="text-center">{{member.name}}</p>
+
+    </div>
+</div>
+
+<!-- <div class="row">
+    <div class="col-md-3" *ngFor="let member of members | async">
+        <div class="card p-2 mt-2">
+            <img class="card-img-top img-fluid" [src]="member.address || member.addressHoverOut" (mouseover)="member.address = address.Hover" (mouseout)="member.address = member.addressHoverOut" height="100px" width="100px" alt="">
+            <div class="card-body">
+                <p class="card-text text-center">{{member.name}}</p>
+            </div>
+        </div>
+    </div>
+</div> -->

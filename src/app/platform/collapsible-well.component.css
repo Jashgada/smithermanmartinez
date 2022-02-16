@@ -1,0 +1,30 @@
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+}
+
+H3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.cherry{
+    background-color: #2072AA;
+}
+
+.yellowish{
+    background-color: #26517C;
+}
+
+.darkmaroon{
+    background-color: #2072AA;
+}
+
+.isthischerry{
+    background-color: #F2AE03;
+}

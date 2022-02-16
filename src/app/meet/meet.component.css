@@ -1,0 +1,45 @@
+@media(min-width:768px){
+    .intro{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 60px;
+}
+}
+
+
+
+.intro-2-img{
+    order: 2;
+}
+
+.intro-2-write{
+    order: 1;
+}
+
+.intro-1{
+    flex-basis: 50%;
+}
+.intro-2{
+    flex-basis: 50%;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+}
+
+H3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 28pt;
+    text-align: center;
+}
+
+
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #26517C;
+}

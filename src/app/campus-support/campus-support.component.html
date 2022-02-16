@@ -1,0 +1,18 @@
+<h2 class="mt-2">CAMPUS SUPPORT</h2>
+<p>Check out why these campus leaders are suppoting us!</p>
+<div class="campus-support">
+    <div class="box1 p-2" *ngFor="let support of supports | async">
+        <img src={{support.address}} (click)="openImage(support)" alt="" style="cursor: pointer;">
+    </div>
+</div>
+
+<div id="myModal" class="modal" *ngIf="imgOpen">
+
+    <!-- The Close Button -->
+    <span class="close" (click)="closeImage()">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01" src={{modalImg.address}}>
+
+
+</div>

@@ -1,0 +1,61 @@
+<!-- <nav class="navbar navbar-expand-md ">
+      <a routerLink="/" class="navbar-brand">AprilAllGood</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a routerLink="/meet" class="nav-link" routerLinkActive="active">Meet April & Taylor</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/platform" class="nav-link" routerLinkActive="active">Platform</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/team" class="nav-link" routerLinkActive="active">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/campus-support" class="nav-link" routerLinkActive="active">Campus Support</a>
+          </li>
+        </ul>
+      </div>
+data-toggle="collapse" data-target="#navbarToggler"
+  </nav> -->
+
+
+  <nav class="navbar navbar-expand-lg sticky-top">
+
+    <a class="navbar-brand logo" routerLink='/'>
+    <img src="../../assets/logo/SecondarySlogan_Opt2.png" height="100" width="100">
+  </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"  aria-controls="navbarToggler" aria-expanded="false" aria-label = "Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#bb0f55"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item ml-5">
+            <a routerLink="/meet" class="nav-link" routerLinkActive="active">Meet Isaac and Yulia</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a routerLink="/platform" class="nav-link" routerLinkActive="active">Platform</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a routerLink="/team" class="nav-link" routerLinkActive="active">Our Team</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a routerLink="/campus-support" class="nav-link" routerLinkActive="active">Campus Support</a>
+          </li>
+          <!-- <li class="nav-item ml-5 mr-5">
+            <a routerLink="/ideas" class="nav-link" routerLinkActive="active">Submit Your Ideas!</a>
+          </li> -->
+          <li class="nav-item ml-5 mr-5">
+            <button type="button" class="btn btn-primary text-light btn-sm vote-now">
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=bC4i9cZf60iPA3PbGCA7Y5MaZAf9U1JInCygUfFyWANUNUpNMU9YQ01ISzJIQjlBRVBDMUFRQTRIVS4u" class="nav-link" target="_blank" routerLinkActive="active" style="color:white">Go Vote!</a>
+            </button>
+          </li>
+      </ul>
+    </div>
+  </nav>

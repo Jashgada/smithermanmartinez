@@ -1,0 +1,68 @@
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+}
+
+H2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 28pt;
+    text-align: center;
+}
+
+H2 >span{
+    color: #26517C
+}
+
+.card{
+    box-shadow: 5px 5px 3px grey;
+}
+
+.yellow{
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+    border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+}
+
+.lcherry{
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
+    border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
+}
+
+.dcherry{
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
+    border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
+}
+
+.cherry{
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
+    border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
+}
+
+/* img{
+    border: 16px solid transparent;
+    border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+}   */
+
+
+
+
+p{
+    font-size: 18px;
+}

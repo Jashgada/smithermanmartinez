@@ -1,0 +1,30 @@
+<!-- TODO Fix Uneven Heights -->
+
+
+<div class="platform-icons mt-2">
+    <div class="box1 ">
+        <h4>Campus Experience</h4>
+        <img src="../../assets/Platform/CampusEx.png" height="200px" width="200px" alt="">
+        <p *ngIf="description">The college experience only happens once and we intend to make the most of it for all Bearcats!</p>
+    </div>
+    <div class="box1 ">
+        <h4>Action</h4>
+        <img src="../../assets/Platform/Action.png" height="200px" width="200px" alt="">
+        <p *ngIf="description">Putting energy behind words through initiatives that will break down barriers between the student body and campus resources all while increasing transperancy and accessibility regarding Student Government endeavours.</p>
+    </div>
+    <div class="box1">
+        <h4>Sustainability</h4>
+        <img src="../../assets/Platform/Sustainability.png" height="200px" width="200px" alt="">
+        <p *ngIf="description">We believe that small, healthy habits make the biggest of differences. We aim to have each Bearcat know they are supported and able to make an impact for generations to come.</p>
+    </div>
+    <div class="box1 ">
+        <h4>Oh, Varsity</h4>
+        <img src="../../assets/Platform/OhVarsity.png" height="200px" width="200px" alt="">
+        <p *ngIf="description">As spirit and excitement return to our campus we envision our One Team united from school day to game day.</p>
+    </div>
+    <div class="box1 " *ngIf = "lastPlat">
+        <h4>You!</h4>
+        <img src="../../assets/Platform/Submit.png" height="200px" width="200px" alt="">
+        <p *ngIf="description">Want to see something never done before on campus? Submit your ideas for Gable + Allgood to improve UC and your idea might just be chosen to be our final platform point!</p>
+    </div>
+</div>

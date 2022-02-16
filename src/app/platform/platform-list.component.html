@@ -1,0 +1,12 @@
+<div *ngFor="let platform of platforms | async; let last=last">
+    <div>
+        <collapsible-well [title] = "platform.name" [backgroundColor]="platform.color">
+        <h4 class="mt-1" *ngIf="!specialCase">What is this?</h4>
+        <p style="white-space: pre-line;">{{platform.info}}</p>
+        <h4 class="mt-1" *ngIf="!specialCase">Who does this impact?</h4>
+        <p style="white-space: pre-line;">{{platform.impact}}</p>
+        <h4 class="mt-1" *ngIf="!specialCase">What is our plan?</h4>
+        <p style="white-space: pre-line;">{{platform.plan}}</p>
+        </collapsible-well>
+    </div>
+</div>
