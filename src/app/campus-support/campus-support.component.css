@@ -19,14 +19,14 @@ img:hover{
     box-shadow: 6px 6px 4px grey;
 }
 p{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 11pt;
     text-align: center;
 }
 
 H2{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 28pt;
     text-align: center;
@@ -94,7 +94,7 @@ H2{
     width: 10%;
     color: #bbb;
     font-size: 150px;
-     font-weight: bold; 
+     font-weight: bold;
     cursor: pointer;
     user-select: none;
     padding-left: 20px;
@@ -104,8 +104,8 @@ H2{
 .prevArrow{
     color: #bbb;
     font-size: 150px;
-    font-weight: bold; 
+    font-weight: bold;
     cursor: pointer;
-    user-select: none; 
+    user-select: none;
     padding-right: 20px;
 } */
